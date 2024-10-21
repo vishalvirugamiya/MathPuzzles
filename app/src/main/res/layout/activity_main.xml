@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_gravity="center"
+    android:background="@drawable/backr"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingBottom="45dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#050C9C"
+            android:fontFamily="@font/font2"
+            android:text="Math Puzzles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="570dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/backrt1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/continue_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/font1"
+                android:text="CONTINUE"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/puzzles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/font1"
+                android:text="PUZZLES"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/buypro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/font1"
+                android:text="BUY PRO"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
