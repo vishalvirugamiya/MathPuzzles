@@ -25,6 +25,7 @@ class Myadapter(var selectPuzzle: select_puzzle) : BaseAdapter() {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         var leyouttInflater: LayoutInflater = LayoutInflater.from(selectPuzzle)
+
         var view: View = leyouttInflater.inflate(R.layout.sel_puz_item, null)
 
         var button: Button = view.findViewById(R.id.view_button)

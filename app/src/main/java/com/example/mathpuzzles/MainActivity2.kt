@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity2 : AppCompatActivity() {
+class  MainActivity2 : AppCompatActivity() {
 
     lateinit var button1: Button
     lateinit var button2: Button
@@ -154,8 +154,7 @@ class MainActivity2 : AppCompatActivity() {
 
         deletB.setOnClickListener {
             var s: String = textVi.text.toString()     //delete Button
-            if(s.length>0)
-            {
+            if (s.length > 0) {
                 s = s.substring(0, s.length - 1)
                 textVi.setText(s)
             }
@@ -218,5 +217,6 @@ class MainActivity2 : AppCompatActivity() {
 
 
     }
+
 
 }
