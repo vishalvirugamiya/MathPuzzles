@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences = getSharedPreferences("Math Puzzle",0)
         editor = sharedPreferences.edit()
 
-
          contin=findViewById(R.id.continue_)
          contin.setOnClickListener {
 
@@ -61,6 +60,7 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-
     }
+
+
 }

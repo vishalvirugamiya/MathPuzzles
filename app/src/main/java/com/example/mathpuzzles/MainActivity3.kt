@@ -45,7 +45,6 @@ class MainActivity3 : AppCompatActivity() {
             startActivity(intent)
 
             finish()
-
         }
 
         main_menu=findViewById(R.id.main_menu)
@@ -56,7 +55,6 @@ class MainActivity3 : AppCompatActivity() {
 
         buy_pro=findViewById(R.id.buy_pro)
         buy_pro.setOnClickListener {
-
 
         }
 
